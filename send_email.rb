@@ -42,5 +42,5 @@ return "<h1>Bonjour</h1
 <p>N'hésitez pas ! Charles, co-fondateur de The Hacking Project pourra répondre à toutes vos questions : <FONT color= #FF8000> 06.95.46.60.80 </FONT></p> "
 
 end
-
+ 
 go_through_all_the_lines()  
