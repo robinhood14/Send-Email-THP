@@ -12,3 +12,4 @@ Lien googlesheet : https://docs.google.com/spreadsheets/d/1rX8FDF7FrF_EMKblnVbYT
 Lien googlesheet à intégrer (si absent) : 1rX8FDF7FrF_EMKblnVbYTJ2uRFSGo6T9Ctwd8UFfLt4
 
 <B>Tu auras seulement besoin de créer fichier config.json avec tes propres ID client googledrive, ainsi que de rentrer tes      propres identifiants et mot de passe gmail pour éxécuter les programmes. </B>
+ 
