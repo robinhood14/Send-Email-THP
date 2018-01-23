@@ -2,20 +2,9 @@ require 'gmail'
 require 'rubygems'
 require 'google_drive'
 
-=begin
-L'exercice ici est de créer un programme send_emails.rb, qui va reprendre chaque colonne d'un spreadsheet, et qui va envoyer un email à la mairie indiquée. 
-
-On va donc commencer par créer une méthode go_through_all_the_lines : Elle prendra les emails de chaques lignes.
-On va ensuite la coupler à une méthode send_email_to_line : Elle prendra l'email en colonne B, et lui enverra un message, qui pourra être alterné en fonction du nom de la mairie en colonne A.
-Enfin, on créer une methode get_the_email_html qui récupereras le nom de la ville concernée, et qui renvoie un HTML 
-=end 
-
-
-.qui va récupérer les emails et leur envoyer le mail defini en HTML
-
 def send_email_to_line(dest, town) # Création de la premiere fonction qui prend comme argument le destinaitre ( laddresse email) et la town ( la nom de la ville)
 gmail = Gmail.connect("TonEmail", "TonPassword") # Connexion au compte Gmail qui va nous servir a envoyer les mails.
-if  gmail.logged_in? ==true then # Verification de la connexion (si True => on passe direct a la préparation d'envoi)
+if  gmail.logged_in? == true then # Verification de la connexion (si True => on passe direct a la préparation d'envoi)
 puts "preparing email ..." 
 end
 		gmail.deliver do # je demande au compte connecté gmail de faire l'action : envoyer un mail au destinataire contenu dans la variable DEST. 
