@@ -21,8 +21,8 @@ puts "sent"
 gmail.logout
 end
 
-# Création de la méthode qui permet de récupérer les emails de chacune des lignes contenu dans le googlesheet.
-def go_through_all_the_lines()
+	
+def go_through_all_the_lines()# Création de la méthode qui permet de récupérer les emails de chacune des lignes contenu dans le googlesheet.
 	g_session = GoogleDrive::Session.from_config("config.json") # initialisation de la session 
 	w_sheet = g_session.spreadsheet_by_key("1rX8FDF7FrF_EMKblnVbYTJ2uRFSGo6T9Ctwd8UFfLt4").worksheets[0] # on définit la variable w_sheet qui contient le lien de partage du google sheet, feuille 1 ( [0])
 
