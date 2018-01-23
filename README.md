@@ -11,4 +11,4 @@ L'exercice ici est de créer un programme send_emails.rb, qui va envoyer un emai
 Lien googlesheet : https://docs.google.com/spreadsheets/d/1rX8FDF7FrF_EMKblnVbYTJ2uRFSGo6T9Ctwd8UFfLt4/edit?usp=sharing 
 Lien googlesheet a intégrer ( si absent) : 1rX8FDF7FrF_EMKblnVbYTJ2uRFSGo6T9Ctwd8UFfLt4
 
-Tu auras seulement besoin de créer fichier config.json avec tes propres ID client googledrive, ainsi que de rentrer tes propres identifiants et mot de passe gmail pour éxécuter les programmes. 
+<B>Tu auras seulement besoin de créer fichier config.json avec tes propres ID client googledrive, ainsi que de rentrer tes propres identifiants et mot de passe gmail pour éxécuter les programmes. </B>
